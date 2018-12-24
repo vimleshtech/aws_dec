@@ -1,0 +1,87 @@
+Linux Commands
+===================
+pwd 	: show crrent directory path
+ll	: long list(show list of files and folder)
+	with permission, size , date 
+ls	: short list (show list of files and folder) 
+
+cal	: show calendar
+date	: show current date
+mkdir	: make diretory
+cd : change directory
+cd.. : go one directory back
+cd ~ : to to root/home
+
+cat >>filenane.txt : create new file
+
+ctrl+z	: save the file and exit
+
+rm filename.txt : remove the file 
+cp src dest : copy the file
+mv src dest : move the file 
+
+cat filename.txt : show content of the file 
+
+cat filename.txt > newfile.txt  : copy content from one 		  file to another file
+
+
+wc filename.txt :
+	no_of_lines  no_of_words no_of_chars 
+			
+
+
+
+-rw-rw-r--  1 hadoop -rwhadoop   57 Dec 24 01:17 emp.txt
+drwxrwxr-x  2 hadoop hadoop 4096 Dec 24 01:17 foldera/
+drwxrwxr-x  2 hadoop hadoop 4096 Dec 24 01:17 folderb/
+
+
+-: file 
+d: directory 
+
+rwxrwxr-x
+u   g  o
+
+u - current user
+g - group
+o - other user 
+
+r -read
+w -write
+x -execute 
+
+
+Octal Value
+==================
+4-read
+2-write
+1-execute
+
+
+777
+ugo 
+
+clea
+617
+ugo ll
+
+
+
+
+Exercise:
+1. create folder and create new file 
+ and write the content in file
+2. get the word and line count from file
+3. make a new copy of same file
+4. remove the old copy of file 
+
+mkdir
+
+
+
+
+
+
+
+rm fi
+
